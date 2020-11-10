@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
-import { Text, Button, VStack, HStack, Input } from "@chakra-ui/core";
+import { Text, Button, HStack, Input } from "@chakra-ui/core";
 import { ethers } from "ethers";
 import { Web3Context } from "./hooks/useWeb3";
 import {
